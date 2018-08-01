@@ -1,0 +1,35 @@
+body, html {
+    font-size: 1.1em;
+    font-family: Roboto, sans-serif;
+}
+
+.center {
+    border-bottom: 0.2em solid lightsteelblue;
+    border-top: 0.2em solid lightsteelblue;
+    margin: 0.3em;
+    padding: 0.3em;
+    text-align: center;
+}
+.order-list {
+    padding: 0.2em;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8em;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.completed {
+    flex-shrink: 0;
+}
+
+.completed:hover {
+    color:white;
+    background-color: lightsteelblue;
+}
